@@ -67,6 +67,15 @@ pip install -r requirements.txt
 ```
 
 ## ✅ Step 5: Configure the `.env` File
+
+To use Hugging Face models, you need an API token:
+
+1. Go to [https://huggingface.co](https://huggingface.co)
+2. Sign up or log in
+3. Go to your profile → **Settings** → **Access Tokens**
+4. Create a new token with **"Read"** access
+5. In the root of your project, create a `.env` file with:
+
 Create a `.env` file and add:
 ```
 MODEL_NAME='mistralai/Mistral-7B-Instruct-v0.3'
